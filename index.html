@@ -9,13 +9,14 @@
     />
     <meta name="author" content="Omotayo" />
     <title>Omotayo's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" / >
   </head>
 
   <body>
     <header>
       <h1>Omotayo's Portfolio</h1>
       <p>Frontend-End Developer</p>
-      <nav>
+      <nav class="nav-links">
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -31,10 +32,10 @@
         <h2>About Me</h2>
         <figure>
           <img
+          class="profile-img"
             src="images/mypix.png"
             alt="Omotayo's Profile Picture"
-            width="190px"
-            height="190px"
+          
           />
           <figcaption>Omotayo - Frontend Developer</figcaption>
         </figure>
@@ -76,21 +77,23 @@
       </section>
       <section>
         <h2>Projects</h2>
-        <article>
+      
+          <div class="card">
           <h3>Project One: Portfolio Website</h3>
           <p>
             A personal portfolio website built using React and hosted on GitHub
             Pages. It showcases my skills, projects, and contact information.
           </p>
-        </article>
+          </div>
+    
 
-        <article>
+        <div class="card">
           <h3>Project Two: E-commerce Store</h3>
           <p>
             An e-commerce web application developed with Next.js, featuring a
             product catalog, shopping cart, and checkout functionality.
           </p>
-        </article>
+        </div>
       </section>
 
       <section>
@@ -160,9 +163,9 @@
         </p>
       </section>
 
-      <section>
+      <section class="dark">
         <h2>Contact Me</h2>
-        <form>
+        <form class="contact-form">
           <fieldset>
             <legend>Send a Message</legend>
             <label for="name">Name:</label>
@@ -177,7 +180,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <p>&copy; 2026 Omotayo. All rights reserved.</p>
       <address>
         Email: <a href="mailto:omotayo@example.com">omotayo@example.com</a>
