@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Smooth hover effect for Bootstrap buttons */
+.click-btn {
+  transition: transform 0.2s ease;
+}
+
+.click-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Error text spacing */
+.error {
+  display: block;
+  height: 14px;
+  font-size: 12px;
+}
